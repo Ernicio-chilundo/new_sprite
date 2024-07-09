@@ -20,11 +20,11 @@ Animacao.prototype={
 
         this.limparTela()
 
-        for (let i in this.sprites) {
+        for (var i in this.sprites) {
             this.sprites[i].atualizar()
         }
 
-        for (let i in this.sprites) {
+        for (var i in this.sprites) {
             this.sprites[i].desenhar()
         }
 
