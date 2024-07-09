@@ -21,16 +21,16 @@ Animacao.prototype={
         this.limparTela()
 
         for (let i in this.sprites) {
-            this.sprites[i] = atualizar()
+            this.sprites[i].atualizar()
         }
 
         for (let i in this.sprites) {
-            this.sprites[i] =desenhar()
+            this.sprites[i].desenhar()
         }
 
         var animacao = this
         requestAnimationFrame(function(){
-            animacao.proximoFrame
+            animacao.proximoFrame()
         })
     },
     limparTela:function(){
