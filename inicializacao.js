@@ -1,5 +1,6 @@
 var canvas = document.getelemenetById("mycanvas")
 var context = canvas.getContext("2d")
+var animacao = new Animacao(context)
 
 // criar b1 sprite
 
