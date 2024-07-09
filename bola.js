@@ -8,6 +8,7 @@ function Bola(context) {
 
     this.cor = "black"
     this.raio = 10
+
 }
 
 Bola.prototype = {
